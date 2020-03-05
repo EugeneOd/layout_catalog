@@ -27,7 +27,6 @@ body {
 .header__link {
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  font-style: normal;
   text-decoration: none;
   color: black;
   font-size: 12px;
@@ -35,6 +34,7 @@ body {
 }
 .header__link:hover {
   color: #00acdc;
+  transition: color 0.5s;
 }
 
 .is-active {
@@ -78,6 +78,11 @@ body {
   width: 160px;
   height: 134px;
   margin: 30px 20px;
+}
+.product__img:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+  cursor: pointer;
 }
 .product__description {
   margin: 0 15px 0 14px;
@@ -145,9 +150,11 @@ body {
 .product__buy:hover {
   background-color: #fff;
   border: 1px solid #00acdc;
+  transition: background-color 0.5s;
 }
 .product__buy__a:hover {
   color: #00acdc;
+  transition: color 0.5s;
 }
 
 .stars {
@@ -185,7 +192,6 @@ body {
 }
 html {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-size: 11px;
   line-height: 13px;
   font-weight: 400;

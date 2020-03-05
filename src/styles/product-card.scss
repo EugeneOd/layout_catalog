@@ -21,6 +21,12 @@
     width: 160px;
     height: 134px;
     margin: 30px 20px;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 1s;
+      cursor: pointer;
+    }
   }
 
   &__description {
@@ -103,10 +109,12 @@
   &__buy:hover {
     background-color: #fff;
     border: 1px solid $main-color;
+    transition: background-color 0.5s;
   }
 
   &__buy__a:hover {
     color: $main-color;
+    transition: color 0.5s;
   }
 
 }
