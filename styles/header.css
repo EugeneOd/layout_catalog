@@ -34,7 +34,9 @@
     font-size: 12px;
     line-height: 60px; }
   .header__link:hover {
-    color: #00acdc; }
+    color: #00acdc;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
 
 .is-active {
   position: relative;

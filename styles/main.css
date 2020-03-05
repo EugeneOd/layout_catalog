@@ -37,7 +37,9 @@ body {
     font-size: 12px;
     line-height: 60px; }
   .header__link:hover {
-    color: #00acdc; }
+    color: #00acdc;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
 
 .is-active {
   position: relative;
@@ -83,6 +85,14 @@ body {
     width: 160px;
     height: 134px;
     margin: 30px 20px; }
+    .product__img:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      -webkit-transition: -webkit-transform 1s;
+      transition: -webkit-transform 1s;
+      transition: transform 1s;
+      transition: transform 1s, -webkit-transform 1s;
+      cursor: pointer; }
   .product__description {
     margin: 0 15px 0 14px;
     font-weight: 500;
@@ -155,9 +165,13 @@ body {
     text-transform: uppercase; }
   .product__buy:hover {
     background-color: #fff;
-    border: 1px solid #00acdc; }
+    border: 1px solid #00acdc;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s; }
   .product__buy__a:hover {
-    color: #00acdc; }
+    color: #00acdc;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
 
 .stars {
   display: -webkit-box;
