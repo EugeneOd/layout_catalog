@@ -82,8 +82,11 @@ body {
   transition: transform 1s;
 }
 .product__img:hover {
-  transform: scale(1.2);
-  transition: transform 1s;
+  box-sizing: border-box;
+  position: relative;
+  padding: 4px;
+  transform: scale(1.4);
+  transition: transform 1s, padding 1s;
   cursor: zoom-in;
   border: 3px solid #ececec;
   border-radius: 5px 5px 0 0;
