@@ -35,7 +35,6 @@ body {
 }
 .header__link:hover {
   color: #00acdc;
-  transition: color 0.5s;
 }
 
 .is-active {
@@ -82,14 +81,13 @@ body {
   transition: transform 1s;
 }
 .product__img:hover {
-  box-sizing: border-box;
-  position: relative;
   padding: 4px;
-  transform: scale(1.4);
-  transition: transform 1s, padding 1s;
+  transform: scale(1.2);
+  transition: transform 1s;
   cursor: zoom-in;
   border: 3px solid #ececec;
   border-radius: 5px 5px 0 0;
+  margin: 23px;
 }
 .product__description {
   margin: 0 15px 0 14px;
@@ -159,11 +157,9 @@ body {
 .product__buy:hover {
   background-color: #fff;
   border: 1px solid #00acdc;
-  transition: background-color 0.5s;
 }
 .product__buy__a:hover {
   color: #00acdc;
-  transition: color 0.5s;
 }
 
 .stars {
