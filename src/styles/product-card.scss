@@ -24,13 +24,13 @@
     transition: transform 1s;
 
     &:hover {
-      padding: 4px;
-      transform: scale(1.2);
+      padding: 2px;
+      transform: scale(1.17);
       transition: transform 1s;
       cursor: zoom-in;
       border: 3px solid #ececec;
       border-radius: 5px 5px 0 0;
-      margin: 23px;
+      margin: 25px;
     }
   }
 
@@ -42,7 +42,7 @@
     line-height: 15px;
   }
 
-  &__description__p {
+  &__description--text {
     margin-bottom: 6px;
   }
 
@@ -50,7 +50,7 @@
     width: 170px;
   }
 
-  &__code__p {
+  &__code--text {
     margin: 0;
   }
 
@@ -63,7 +63,7 @@
     margin-top: 14px;
   }
 
-  &__reviews__p {
+  &__reviews--text {
     margin: 0;
     margin-top: 1px;
   }
@@ -75,12 +75,12 @@
     margin-bottom: 4px;
   }
 
-  &__phrase__p {
+  &__phrase--text {
     margin-top: 24px;
     margin-right: 61px;
   }
 
-  &__current__p {
+  &__current--text {
     margin-top: 19px;
     font-weight: bold;
     font-size: 16px;
@@ -97,7 +97,7 @@
     transition: background-color 0.5s, color 0.5s;
   }
 
-  &__buy__a {
+  &__buy--link {
     display: flex;
     width: 168px;
     height: 38px;
@@ -118,7 +118,7 @@
     border: 1px solid $main-color;
   }
 
-  &__buy__a:hover {
+  &__buy--link:hover {
     color: $main-color;
   }
 
