@@ -39,9 +39,7 @@ body {
     -webkit-transition: color 0.5s;
     transition: color 0.5s; }
   .header__link:hover {
-    color: #00acdc;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    color: #00acdc; }
 
 .is-active {
   position: relative;
@@ -92,20 +90,18 @@ body {
     transition: transform 1s;
     transition: transform 1s, -webkit-transform 1s; }
     .product__img:hover {
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      position: relative;
       padding: 4px;
-      -webkit-transform: scale(1.4);
-              transform: scale(1.4);
-      -webkit-transition: padding 1s, -webkit-transform 1s;
-      transition: padding 1s, -webkit-transform 1s;
-      transition: transform 1s, padding 1s;
-      transition: transform 1s, padding 1s, -webkit-transform 1s;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      -webkit-transition: -webkit-transform 1s;
+      transition: -webkit-transform 1s;
+      transition: transform 1s;
+      transition: transform 1s, -webkit-transform 1s;
       cursor: -webkit-zoom-in;
       cursor: zoom-in;
       border: 3px solid #ececec;
-      border-radius: 5px 5px 0 0; }
+      border-radius: 5px 5px 0 0;
+      margin: 23px; }
   .product__description {
     margin: 0 15px 0 14px;
     font-weight: 500;
@@ -182,13 +178,9 @@ body {
     transition: color 0.5s; }
   .product__buy:hover {
     background-color: #fff;
-    border: 1px solid #00acdc;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s; }
+    border: 1px solid #00acdc; }
   .product__buy__a:hover {
-    color: #00acdc;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    color: #00acdc; }
 
 .stars {
   display: -webkit-box;

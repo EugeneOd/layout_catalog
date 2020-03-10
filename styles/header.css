@@ -36,9 +36,7 @@
     -webkit-transition: color 0.5s;
     transition: color 0.5s; }
   .header__link:hover {
-    color: #00acdc;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    color: #00acdc; }
 
 .is-active {
   position: relative;
