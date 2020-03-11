@@ -23,20 +23,17 @@
     -webkit-transition: -webkit-transform 1s;
     transition: -webkit-transform 1s;
     transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s; }
+    transition: transform 1s, -webkit-transform 1s;
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 5px; }
     .product__img:hover {
-      padding: 2px;
       -webkit-transform: scale(1.17);
               transform: scale(1.17);
-      -webkit-transition: -webkit-transform 1s;
-      transition: -webkit-transform 1s;
-      transition: transform 1s;
-      transition: transform 1s, -webkit-transform 1s;
       cursor: -webkit-zoom-in;
       cursor: zoom-in;
-      border: 3px solid #ececec;
-      border-radius: 5px 5px 0 0;
-      margin: 25px; }
+      border-color: #e9e9e9;
+      margin: 30px; }
   .product__description {
     margin: 0 15px 0 14px;
     font-weight: 500;
