@@ -27,11 +27,11 @@ body {
 .header__link {
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  font-style: normal;
   text-decoration: none;
   color: black;
   font-size: 12px;
   line-height: 60px;
+  transition: color 0.5s;
 }
 .header__link:hover {
   color: #00acdc;
@@ -78,6 +78,16 @@ body {
   width: 160px;
   height: 134px;
   margin: 30px 20px;
+  transition: transform 1s;
+}
+.product__img:hover {
+  padding: 2px;
+  transform: scale(1.17);
+  transition: transform 1s;
+  cursor: zoom-in;
+  border: 3px solid #ececec;
+  border-radius: 5px 5px 0 0;
+  margin: 25px;
 }
 .product__description {
   margin: 0 15px 0 14px;
@@ -85,13 +95,13 @@ body {
   font-size: 12px;
   line-height: 15px;
 }
-.product__description__p {
+.product__description--text {
   margin-bottom: 6px;
 }
 .product__code {
   width: 170px;
 }
-.product__code__p {
+.product__code--text {
   margin: 0;
 }
 .product__rating {
@@ -102,7 +112,7 @@ body {
   margin-right: 13px;
   margin-top: 14px;
 }
-.product__reviews__p {
+.product__reviews--text {
   margin: 0;
   margin-top: 1px;
 }
@@ -112,11 +122,11 @@ body {
   width: 170px;
   margin-bottom: 4px;
 }
-.product__phrase__p {
+.product__phrase--text {
   margin-top: 24px;
   margin-right: 61px;
 }
-.product__current__p {
+.product__current--text {
   margin-top: 19px;
   font-weight: bold;
   font-size: 16px;
@@ -128,8 +138,9 @@ body {
   border: 1px solid #00acdc;
   background-color: #00acdc;
   border-radius: 5px;
+  transition: background-color 0.5s, color 0.5s;
 }
-.product__buy__a {
+.product__buy--link {
   display: flex;
   width: 168px;
   height: 38px;
@@ -141,12 +152,13 @@ body {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+  transition: color 0.5s;
 }
 .product__buy:hover {
   background-color: #fff;
   border: 1px solid #00acdc;
 }
-.product__buy__a:hover {
+.product__buy--link:hover {
   color: #00acdc;
 }
 
@@ -185,7 +197,6 @@ body {
 }
 html {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-size: 11px;
   line-height: 13px;
   font-weight: 400;
